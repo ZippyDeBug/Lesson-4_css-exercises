@@ -15,9 +15,9 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
-  margin: 10px;
-  padding: 5px;
-  font-size: 15pt;
+  margin-bottom: 8px;
+  padding: 8px;
+  font-size: 16pt;
 }
 
 .button-container {
@@ -28,9 +28,6 @@ button {
   background: white;
   display: block;
   font-size: 15pt;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: auto;
+  padding: 8px 24px;
+  margin: 0 auto;
 }
