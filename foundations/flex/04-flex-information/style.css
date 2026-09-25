@@ -5,11 +5,12 @@ body {
 img {
   width: 100px;
   height: 100px;
-}
+  }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +25,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  justify-self: center;
+}
+
+.flex-class {   
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 52px;
+  }
+
+.text {
+  text-align: center;
+
+}
+
+.barberry, .pepper, .chilli, .saffron  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+}
+
